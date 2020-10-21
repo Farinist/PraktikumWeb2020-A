@@ -1,0 +1,55 @@
+<html><!-- Tag <html> untuk membuat sebuah dokumen HTML-->
+    <head><!-- menyimpan informasi, seperti judul dan charset halaman -->
+        <title>Halaman Pendaftaran</title><!-- Tag <title> untuk membuat judul dari sebuah halaman -->
+        <link rel="stylesheet" href="css/style.css"/><!-- digunakan untuk menghubungkan ke halaman css-->
+        <link href='icon.png' rel='shortcut icon'><!-- digunakan untuk mengganti icon pada title bar browser dengan ikon yang kita inginkan -->
+    </head>
+    <body><!-- digunakan untuk melampirkan semua konten yang muncul pada suatu halaman -->
+        <div class="header"><!-- untuk mengelompokkan elemen atau tag-tag agar menjadi suatu grup, 
+                            dan juga sering digunakan untuk mendefinisikan id atau class dari css-->
+            <img src="pic.jpg"><!-- untuk menampilkan gambar didalam div -->
+            <h2>Halaman Pendaftaran</h2><!-- Heading digunakan untuk judul dari paragraf, atau bagian dari text yang merupakan judul -->
+            <p>Pendaftaran sebagai peserta dalam RAKERWIL (Rapat Kerja Wilayah) Bali dan Nusa Tenggara 2020</p><!-- untuk membuat paragraf 
+                                                                                                                (isi form)-->
+        </div>
+        <form action="" method="post"><!-- tag <form> digunakan untuk membuat form -->
+            <input type="text" name="NamaLengkap" class="B" placeholder="Nama Lengkap"/><!-- menginput nama lengkap dengan tipe text
+                                                                                            dengan calss B yang sudah didesain di style.css -->
+            <input type="text" name="NamaPanggilan" class="B2" placeholder="Nama Panggilan"/><!-- menginput nama panggilan dengan tipe text 
+                                                                                              dengan class B2-->
+            <input type="text" name="NoTelepon" class="B" placeholder="No. Telepon"/><!-- menginput nomor telepon dengan tipe text
+                                                                                          dengan class B -->
+            <input type="email" name="Email" class="B2" placeholder="Email"/><!-- menginput email dengan tipe email dengan class B2 -->
+            <input type="number" name="TanggalLahir" class="C" placeholder="Tanggal Lahir"/><!-- menginput tanggal lahir dengan tipe number (angka)
+                                                                                                 dengan class C -->
+            <input type="text" name="TempatLahir" class="C2" placeholder="Tempat Lahir"/><!-- menginput tempat lahir dengan tipe text
+                                                                                              dengan class C2 -->
+
+            <select name="Agama" class="C3"><!-- memilih agama dengan tag <select> dengan class C3 yang sudah didesain di style.css -->
+                <option value="Agama">Agama</option>
+                <option value="Islam">Islam</option>
+                <option value="Hindu">Hindu</option>
+                <option value="Kristen">Kristen</option>
+                <option value="Katolik">Katolik</option>
+                <option value="Budha">Budha</option>
+                <option value="Konghucu">Konghucu</option>
+            </select>
+
+            <input type="text" name="universitas" class="C" placeholder="Universitas"/><!-- menginput nama universitas dengan tipe text -->
+            <input type="text" name="fakultasJurusan" class="C2" placeholder="Fakultas/Jurusan"/><!-- menginput fakultas/jurusan dengan tipe text -->
+            <input type="text" name="jabatan" class="C3" placeholder="Jabatan"/><!-- menginput jabatan dengan tipe text -->
+            <input type="text" name="alamatAsal" class="A" placeholder="Alamat Asal"/><!-- menginput alamat asal dengan tipe text -->
+            <br><br>
+        
+            <label class="pilih">Foto Almameter</label><!-- tag label digunakan untuk menampilkan keterangan dari file yang akan diinputkan -->
+            <label class="pilih">Scan KTP</label>
+            <br>
+            
+            <input type="file" class="pilih"/><!-- untuk mengupload file -->
+            <input type="file" class="pilih2"/>
+            <br>
+            
+            <input type="submit" value="Daftar" class="submit"/><!-- menampilkan tombol "daftar" -->
+        </form>
+    </body>
+</html>

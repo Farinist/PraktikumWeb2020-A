@@ -1,0 +1,111 @@
+.header img{
+    /*ukuran lebar pada margin, lebar gambar, dan tinggi gambar */
+    margin: 0 auto;
+    width: 1350px;
+    height: 200px;
+}
+.header h2{
+    /* untuk desain h2, margin, ukuran font, warna, dan jenis font */
+    position: absolute;
+    font-size: 50px;
+    top: 23px;
+    left: 193px;
+    color: black;
+    font-family: 'Segoe UI',sans-serif;
+}
+
+.header p{
+    /* untuk desain pargraf, margin, ukuran font, warna, dan jenis font */
+    position: absolute;
+    font-size: 20px;
+    top: 102px;
+    left: 195px;
+    color: black;
+    font-family: 'Segoe UI',sans-serif;
+}
+
+.A{
+    /* desain untuk tag-tag dengan class "A"*/
+    margin: 5px 5px 5px 190px;
+    width: 70.7%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    font: 10px "Segoe UI" sans-serif;   
+}
+
+.B{ 
+    /* untuk desain margin, lebar box, padding, ukuran & warna border, dan font yang ada didalam box */
+    margin: 5px 5px 5px 190px;
+    width: 35%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    font: 10px "Segoe UI" sans-serif;
+}
+
+.B2{
+    /* desain untuk tag-tag dengan class "B2"*/
+    margin: 5px 0px 5px 0px;
+    width: 35%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    font: 10px "Segoe UI" sans-serif;
+}
+
+.C{
+    /* desain untuk tag-tag dengan class "C"*/
+    margin: 5px 5px 5px 190px;
+    width: 23%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    font: 10px "Segoe UI" sans-serif;
+}
+
+.C2{
+    /* desain untuk tag-tag dengan class "C2"*/
+    margin: 5px 5px 5px 0px;
+    width: 23%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    font: 10px "Segoe UI" sans-serif;
+}
+
+.C3{
+    /* desain untuk tag-tag dengan class "C3"*/
+    margin: 5px 0px 5px 0px;
+    width: 23.3%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    font: 10px "Segoe UI" sans-serif;
+}
+.pilih{
+    /*untuk desain margin pada tag yang menggunakan class pilih*/
+    margin: 5px 0px 5px 190px
+}
+
+.pilih2{
+    /* untuk desain margin pada tag yang menggunakan class pilih2*/
+    margin: 5px 0px 5px 42px
+}
+
+.submit{
+    /* untuk desain background, margin, padding, ukuran dan warna border, dan font yang ada didalam box*/
+    background: black;
+    padding: 6px 10px 6px 10px;
+    border: 2px solid black;
+    border-radius: 3px;
+    color: white;
+    font-family: "Segoe UI" sans-serif;
+    margin: 5px 0px 5px 190px
+}

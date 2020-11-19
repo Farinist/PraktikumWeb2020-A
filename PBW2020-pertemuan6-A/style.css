@@ -1,0 +1,35 @@
+.inputBil{
+    margin: 10px 0px 10px 500px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgb(8, 82, 45);
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    font: 10px Verdana, Geneva, sans-serif;
+}
+
+.operatorAritmatika{
+    background: rgb(25, 170, 110);
+    width: 50px;
+    height: 38px;
+    padding: 6px 10px 6px 10px;
+    border: 2px solid rgb(30, 175, 103);
+    border-radius: 5px;
+    color: black;
+    font-family: Verdana, Geneva, sans-serif;
+    margin: 5px 0px 10px 10px
+}
+
+.hslAkhir{
+    margin: 10px 0px 10px 500px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgb(10, 50, 35);
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    font: 10px Verdana, Geneva, sans-serif;
+}
+
+body{
+    background-color: lightcyan;
+}

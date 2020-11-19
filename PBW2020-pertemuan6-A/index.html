@@ -1,0 +1,106 @@
+<html><!-- Tag <html> untuk membuat sebuah dokumen HTML-->
+<head><!-- menyimpan informasi, seperti judul dan charset halaman -->
+  <title>KALKULATOR</title> <!-- digunakan untuk menampilkan judul di title bar browser -->
+  <link rel="stylesheet" type="text/css" href="css/style.css"><!-- Tag link untuk menghubungkan halaman web ke halaman css -->
+  <link href='icon.png' rel='shortcut icon'><!-- digunakan untuk mengganti icon pada title bar browser dengan ikon yang kita inginkan -->
+  <style media="screen">
+
+  body {
+    position: relative;
+    font-family: Arial;
+  }
+  .container {
+    max-width: 450px;
+    min-height: 300px;
+    background-color: #a4d6e2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 60px;
+    text-align: center;
+    border-radius: 30px;
+  }
+  .container form {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin: auto;
+  }
+  .container form > input {
+    flex: 0 0 100%;
+    flex-grow: 1;
+    margin-bottom: 15px;
+    padding: 10px;
+  }
+  .container form .actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .container form .actions > input {
+    padding: 10px;
+    min-width: 20%;
+  }
+
+  </style>
+  <body>
+    <div class="container">
+      <h1>KALKULATOR</h1>
+      <form action="#">
+        <input class="inputBil" type="number" id="A1" placeholder="bil 1"><!-- menginputkan bilangan pertama -->
+        <input class="inputBil" type="number" id="A2" placeholder="bil 2"><!-- menginputkan bilangan kedua -->
+        <div class="actions">
+          <input class="operatorAritmatika" type="button" value ="+" onclick="addition()"></input><!-- untuk penjumlahan -->
+          <input class="operatorAritmatika" type="button" value ="-" onclick="subtraction()"></input><!-- untuk pengurangan -->
+          <input class="operatorAritmatika" type="button" value ="x" onclick="multiplication()"></input> <!-- untuk perkalian -->
+          <input class="operatorAritmatika" type="button" value ="/" onclick="division()"></input><!-- untuk pembagian -->
+        </div>
+        <input class="hslAkhir" type="text" id="result" placeholder="hasil"><!-- menampilkan hasil -->
+        <input class="hslAkhir" type="reset" value="CLEAR">
+      </form>
+    </div>
+  </body>
+  </html>
+
+  <script language="JavaScript" type="text/javascript"> // untuk menulis script pada sisi client
+
+  function multiplication(){ // untuk operasi perkalian
+    var A1=parseFloat(document.getElementById("A1").value); //merupakan nilai pertama
+    var A2=parseFloat(document.getElementById("A2").value); //merupakan nilai kedua
+    var result=document.getElementById("result");
+    var hasil;
+    hasil=A1*A2;
+    result.value=hasil;
+  }
+
+  function division(){ // untuk operasi pembagian
+    var A1=parseFloat(document.getElementById("A1").value); //merupakan nilai pertama
+    var A2=parseFloat(document.getElementById("A2").value); //merupakan nilai kedua
+    var result=document.getElementById("result");
+    var hasil;
+    hasil=A1/A2;
+    result.value=hasil;
+  }
+
+  function addition(){ // untuk operasi penjumlahan
+    var A1=parseFloat(document.getElementById("A1").value); //merupakan nilai pertama
+    var A2=parseFloat(document.getElementById("A2").value); //merupakan nilai kedua
+    var result=document.getElementById("result");
+    var hasil;
+    hasil=A1+A2;
+    result.value=hasil;
+  }
+
+  function subtraction(){ // untuk operasi pengurangan
+    var A1=parseFloat(document.getElementById("A1").value); //merupakan nilai pertama
+    var A2=parseFloat(document.getElementById("A2").value); //merupakan nilai kedua
+    var result=document.getElementById("result");
+    var hasil;
+    hasil=A1-A2;
+    result.value=hasil;
+  }
+  </script>
+</head>
